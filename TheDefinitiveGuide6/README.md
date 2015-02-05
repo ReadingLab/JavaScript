@@ -100,4 +100,4 @@ p.r() // => 1.414...
 
 ### Client-Side
 
-see [calculator](http://readinglab.github.io/JavaScript/calcuator)
+see [calculator](http://readinglab.github.io/JavaScript/calculator)
