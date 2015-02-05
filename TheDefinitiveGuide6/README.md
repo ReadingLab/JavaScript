@@ -6,6 +6,8 @@
 
 ## Chapter 1 Introduction to JavaScript
 
+### Core
+
 JavaScript to specify the **behavior** of web pages.
 
 version calls:
@@ -64,3 +66,38 @@ var data = {
     trial2: [[2,3], [4,5]]Â
 }
 ```
+
+**Expressions**
+
+```js
+"3" + "2" // => "32"
+count++;
+count += 2;
+```
+
+**class**
+
+```js
+function Point(x,y) {
+    this.x = x;
+    this.y = y;
+}
+
+var p = new Point(1, 1);
+
+// Define methods for Point objects by assigning them to
+// object associated with the constructor function.
+
+Point.prototype.r = function() {
+    return Math.sqrt(
+        this.x * this.x +
+        this.y * this.y
+    );
+}
+
+p.r() // => 1.414...
+```
+
+### Client-Side
+
+see [calculator](http://readinglab.github.io/JavaScript/calcuator)
