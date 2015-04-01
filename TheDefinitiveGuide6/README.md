@@ -101,3 +101,27 @@ p.r() // => 1.414...
 ### Client-Side
 
 see [calculator](http://readinglab.github.io/JavaScript/calcuator)
+
+# Part I Core JavaScript
+## Chapter 2 Lexical Structure
+
+- Unicode character
+- a number of global variables and functions
+```js
+arguments   encodeURL           Infinity    Number          RegExp
+Array       encodeURIComponent  isFinite    Object          String
+Boolean     Error               isNaN       parseFloat      SyntaxError
+Date        eval                JSON        parseInt        TypeError
+decodeURI   EvalError           Math        RangeError      undefined
+decodeURIComponent  Function    NaN         ReferenceError  URIError
+```
+- notify the optional semicolons.
+```js
+x
+++
+y
+// same as following:
+x; ++y;
+// not this:
+x++; y;
+```
